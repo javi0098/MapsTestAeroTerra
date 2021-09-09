@@ -122,7 +122,7 @@ namespace Asa.MapApi.Controllers
             conn.Close();
             
              
-            return listadoCategoria;
+            return listadoCategoria.OrderBy(x => x.Value);
         }
 
     }
