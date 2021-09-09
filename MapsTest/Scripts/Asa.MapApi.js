@@ -11,7 +11,7 @@ mapApp.getPOIs = function (callback) {
 }
 
 
-}
+
 
 
 
